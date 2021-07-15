@@ -1,0 +1,31 @@
+.fcontainer{
+  display:flex;
+  border:1px solid grey;
+  height:45vh;
+  /* flex-direction:row-reverse; */
+  /* justify-content: flex-end;
+  justify-content: flex-start;
+  justify-content: center; */
+  /* align-items:center;
+  align-items: flex-start;
+  align-items:flex-end; */
+
+  /* Go to the Chrome dev tools and try out the different properties there as well */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+  /* flex-flow: flex-direction flex-wrap; <-- general syntax */
+}
+
+.fitem{
+  background-color: red;
+  margin:12px;
+  border:2px solid black;
+  width:122px;
+  height:122px;
+}
+.item1{
+  order:4;
+  flex-grow:2;
+  /* flex-shrink: 3; --> This one when in mobile mode increases the item's ability to shrink*/
+  /* align-self:center; <-- this  */
+}
